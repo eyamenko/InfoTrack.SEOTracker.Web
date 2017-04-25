@@ -1,0 +1,12 @@
+this["InfoTrack"] = this["InfoTrack"] || {};
+this["InfoTrack"]["SEOTracker"] = this["InfoTrack"]["SEOTracker"] || {};
+this["InfoTrack"]["SEOTracker"]["Collections"] = this["InfoTrack"]["SEOTracker"]["Collections"] || {};
+this["InfoTrack"] = this["InfoTrack"] || {};
+this["InfoTrack"]["SEOTracker"] = this["InfoTrack"]["SEOTracker"] || {};
+this["InfoTrack"]["SEOTracker"]["Models"] = this["InfoTrack"]["SEOTracker"]["Models"] || {};
+this["InfoTrack"] = this["InfoTrack"] || {};
+this["InfoTrack"]["SEOTracker"] = this["InfoTrack"]["SEOTracker"] || {};
+this["InfoTrack"]["SEOTracker"]["Views"] = this["InfoTrack"]["SEOTracker"]["Views"] || {};
+this["InfoTrack"] = this["InfoTrack"] || {};
+this["InfoTrack"]["SEOTracker"] = this["InfoTrack"]["SEOTracker"] || {};
+this["InfoTrack"]["SEOTracker"]["Utils"] = this["InfoTrack"]["SEOTracker"]["Utils"] || {};

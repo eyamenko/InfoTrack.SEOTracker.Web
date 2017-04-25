@@ -1,0 +1,53 @@
+﻿[
+    {
+        "outputFileName": "wwwroot/css/lib.min.css",
+        "inputFiles": [
+            "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+            "wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css",
+            "wwwroot/lib/highcharts/css/highcharts.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/css/site.min.css",
+        "inputFiles": [
+            "wwwroot/css/apps/shared/compiled/compiled.css",
+            "wwwroot/css/apps/seotracker/compiled/compiled.css"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/js/lib.min.js",
+        "inputFiles": [
+            "wwwroot/lib/jquery/dist/jquery.min.js",
+            "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+            "wwwroot/lib/underscore/underscore-min.js",
+            "wwwroot/lib/handlebars/handlebars.runtime.min.js",
+            "wwwroot/lib/backbone/backbone-min.js",
+            "wwwroot/lib/highcharts/highcharts.js"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/js/site.min.js",
+        "inputFiles": [
+            "wwwroot/js/apps/**/ns.js",
+            "wwwroot/js/apps/**/router.js",
+            "wwwroot/js/apps/**/models/*.js",
+            "wwwroot/js/apps/**/collections/*.js",
+            "wwwroot/js/apps/**/templates/compiled/compiled.js",
+            "wwwroot/js/apps/**/views/*.js"
+        ]
+    },
+    {
+        "outputFileName": "wwwroot/js/site.js",
+        "inputFiles": [
+            "wwwroot/js/apps/**/ns.js",
+            "wwwroot/js/apps/**/router.js",
+            "wwwroot/js/apps/**/models/*.js",
+            "wwwroot/js/apps/**/collections/*.js",
+            "wwwroot/js/apps/**/templates/compiled/compiled.js",
+            "wwwroot/js/apps/**/views/*.js"
+        ],
+        "minify": {
+            "enabled": false
+        }
+    }
+]

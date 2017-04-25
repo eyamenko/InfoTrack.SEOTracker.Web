@@ -1,0 +1,14 @@
+﻿<div id="seotracker-app">
+    <div class="menu-container"></div>
+    <div class="body-container"></div>
+</div>
+
+@section Scripts {
+    <script>
+        $(function() {
+            InfoTrack.Router = new InfoTrack.SEOTracker.Router();
+
+            Backbone.history.start({pushState: true});
+        });
+    </script>
+}

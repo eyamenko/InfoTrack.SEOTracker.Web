@@ -1,0 +1,12 @@
+this["InfoTrack"] = this["InfoTrack"] || {};
+this["InfoTrack"]["Shared"] = this["InfoTrack"]["Shared"] || {};
+this["InfoTrack"]["Shared"]["Collections"] = this["InfoTrack"]["Shared"]["Collections"] || {};
+this["InfoTrack"] = this["InfoTrack"] || {};
+this["InfoTrack"]["Shared"] = this["InfoTrack"]["Shared"] || {};
+this["InfoTrack"]["Shared"]["Models"] = this["InfoTrack"]["Shared"]["Models"] || {};
+this["InfoTrack"] = this["InfoTrack"] || {};
+this["InfoTrack"]["Shared"] = this["InfoTrack"]["Shared"] || {};
+this["InfoTrack"]["Shared"]["Views"] = this["InfoTrack"]["Shared"]["Views"] || {};
+this["InfoTrack"] = this["InfoTrack"] || {};
+this["InfoTrack"]["Shared"] = this["InfoTrack"]["Shared"] || {};
+this["InfoTrack"]["Shared"]["Utils"] = this["InfoTrack"]["Shared"]["Utils"] || {};

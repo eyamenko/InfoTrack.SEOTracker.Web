@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+    <PackageReference Include="BuildBundlerMinifier" Version="2.4.337" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="ApiClients\" />
+    <Folder Include="Models\" />
+    <Folder Include="Contracts\" />
+    <Folder Include="Services\" />
+    <Folder Include="Contracts\ApiClients\" />
+    <Folder Include="Contracts\Services\" />
+    <Folder Include="ApiClients\Primitives\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\js\apps\" />
+    <Folder Include="wwwroot\js\apps\seotracker\" />
+    <Folder Include="wwwroot\js\apps\seotracker\models\" />
+    <Folder Include="wwwroot\js\apps\seotracker\views\" />
+    <Folder Include="wwwroot\js\apps\seotracker\collections\" />
+    <Folder Include="wwwroot\js\apps\seotracker\templates\" />
+    <Folder Include="wwwroot\js\apps\seotracker\templates\compiled\" />
+    <Folder Include="wwwroot\css\apps\" />
+    <Folder Include="wwwroot\css\apps\seotracker\" />
+    <Folder Include="wwwroot\css\apps\seotracker\compiled\" />
+    <Folder Include="wwwroot\css\apps\shared\" />
+    <Folder Include="wwwroot\css\apps\shared\compiled\" />
+  </ItemGroup>
+</Project>
